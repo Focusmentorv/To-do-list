@@ -7,7 +7,7 @@ function addItem() {
     if (text.length > 0) {
         const item = {
             text: text,
-            done: false
+            done: false 
         };
         items.push(item);
         input.value = '';
